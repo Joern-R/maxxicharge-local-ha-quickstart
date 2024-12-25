@@ -13,5 +13,75 @@ der Komponenten und daraus folgend notwendige Anpassungen liegen in der Verantwo
 
 # Ziel
 
+Ein "Backup/Image" für Homeassistant Neuinstallationen bereitzustellen, dass nach Installation von Homeassistant auf einem geeignenten Geräte folgende Maxxicharge bezogenen Funktionen ohne weitere Konfiguration
+im Homeassistant bereitstellt:
+
+1. Integration der Maxxicharge Daten aus dem "Lokalen API" als Sensoren
+2. Helfer Entitäten um die Daten die in Watt (W) gelieferten Daten im HA in Kilowattstunden (kwH) aufzusummieren
+3. Die unter 2. erzeugten Helfer Entitäten als Grundkonfiguration des HA Energie Dashboard einzustellen
+4. Mind. ein umfangreiches HA Dashbaord mit allen Maxxicharge Entitäten sowie einigen HACS (Home Assistant Custom Store) Spezialgrafiken
+
+# Technische Vorgehensweise
+
+Da Sensoren/Entitäten im HA komplett individuell benannt werden können, gibt es (m.W.n.) derzeit keine Möglichkeit einzelne, spezifische Konfigurationensteile für spezifischen Zwecke
+von einenm System auf ein anderes System zu übertragen. Stattdessen müssen alle enthaltenen Komponenten (Sensoren, HACS Lovelace Dashboard Komponenten, Configuration.YAML Abschnitte,..) manuell im neuen System 
+angelegt werden und mit Hilfe dieser Komponenten können die Dashboards angelegt und konfiguriert werden.
+
+Für jemanden, der neu mit dem HA anfängt stellt dies oftmal eine unerwartet hohe Anfangshürde dar, insbesondere dann, wenn man direkt mit der Konfiguration für eine System wie Maxxicharge starten will.
+
+Für eine **Komplette Neuinstalltion** des HA gibt es allerdings die Möglichkeit komplette Konfigurationen des System per Backup/Image in HA einzuspielen. Solche Backup's überschreiben alle Daten und Konfigurationen,
+die im jeweiligen HA System gemacht worden sind. Der Ansatz ist somit nur für die Erstkonfiguration in einer neu bereitgestellten und noch nicht genutzen HA Instanz geeignet.
+
+**Warnung:** 
+
+Bei Nutzung des Backup zur Installtion von Maxxicharge spezfischer Konfiguration werden **ALLE** bisher evtl. in dem System vorhandenen Konfgurationen sowie **ALLE** Systemdaten gelöscht. 
+
+**Disclaimer:**
+
+Keine Verantwortung für verlorene Daten und evtl. nicht funktionsfähige HA Installation. Das Einspielen der Backups wurde mit unterschiedlichen HA Systemen auf unterschiedlicher Hardware getestet, allerdings
+aufgrund der Anzahl von Hardware- und Systemoptionen natürlich nicht auf allen möglichen Varianten. Daher unbedingt ein neues, noch nicht konfiguriertes, leeres System nehmen.
+
+# Was ist dabei
+
+## Grundkonfiguration Homeassistant
+
+1. User
+2. File Editor
+3. HACS (Home Assistant Custom Store)
+
+### Details zu 1. User
+
+### Details zu 2. File Editor
+
+### Details zu 3. HACS (Home Assistant Custome Store)
+
+## Grundkonfiguration Maxxicharge
+
+1. Maxxicharge Sensoren für das Lokale API basierend auf der HA Webhook Schnittstelle
+2. Helfer Summensensoren für das Energy Dashboard (Linkes Riemannsches Summenintegral)
+
+## HA Energie Dashboard Vorkonfiguration
+
+1. Energie Dashboard
+
+## HA HACS / Lovelace UI Komponenten für weitere Dashboards
+
+1. ....
+
+## HA Dashboards für die Realtime Anzeige
+
+
+# Was ist NICHT dabei
+
+## Lokale Konfiguraiton
+
+1. Anzeige
+2. Änderung
+
+## 
+
+
+
+
 
 
