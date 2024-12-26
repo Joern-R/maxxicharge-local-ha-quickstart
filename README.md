@@ -19,7 +19,7 @@ im Homeassistant bereitstellt:
 1. Integration der Maxxicharge Daten aus dem "Lokalen API" als Sensoren
 2. Helfer Entitäten um die Daten die in Watt (W) gelieferten Daten im HA in Kilowattstunden (kwH) aufzusummieren
 3. Die unter 2. erzeugten Helfer Entitäten als Grundkonfiguration des HA Energie Dashboard einzustellen
-4. Mind. ein umfangreiches HA Dashbaord mit allen Maxxicharge Entitäten sowie einigen HACS (Home Assistant Custom Store) Spezialgrafiken
+4. Mind. ein HA Dashbaord mit allen Maxxicharge Entitäten basierend auf HA Standard Dashboard Möglichkeiten
 
 # Technische Vorgehensweise
 
