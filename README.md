@@ -41,44 +41,6 @@ Bei Nutzung des Backup zur Installtion von Maxxicharge spezfischer Konfiguration
 Keine Verantwortung für verlorene Daten und evtl. nicht funktionsfähige HA Installation. Das Einspielen der Backups wurde mit unterschiedlichen HA Systemen auf unterschiedlicher Hardware getestet, allerdings
 aufgrund der Anzahl von Hardware- und Systemoptionen natürlich nicht auf allen möglichen Varianten. Daher unbedingt ein neues, noch nicht konfiguriertes, leeres System nehmen.
 
-# Was ist dabei
-
-## Grundkonfiguration Homeassistant
-
-1. User
-2. File Editor
-3. HACS (Home Assistant Custom Store)
-
-### Details zu 1. User
-
-### Details zu 2. File Editor
-
-### Details zu 3. HACS (Home Assistant Custome Store)
-
-## Grundkonfiguration Maxxicharge
-
-1. Maxxicharge Sensoren für das Lokale API basierend auf der HA Webhook Schnittstelle
-2. Helfer Summensensoren für das Energy Dashboard (Linkes Riemannsches Summenintegral)
-
-## HA Energie Dashboard Vorkonfiguration
-
-1. Energie Dashboard
-
-## HA HACS / Lovelace UI Komponenten für weitere Dashboards
-
-1. ....
-
-## HA Dashboards für die Realtime Anzeige
-
-
-# Was ist NICHT dabei
-
-## Lokale Konfiguraiton
-
-1. Anzeige
-2. Änderung
-
-## 
 
 
 
