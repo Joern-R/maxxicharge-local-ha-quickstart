@@ -1,5 +1,5 @@
 # maxxicharge-local-ha-quickstart
-Homeassistant Backup/Image als Grundlage eines Integration dem Maxxicharge V1 - Lokalem API
+Homeassistant Backup/Image als Grundlage einer Integration mit dem Lokaen API der Maxxicharge CCU V1
 
 **Disclaimer:**
 
