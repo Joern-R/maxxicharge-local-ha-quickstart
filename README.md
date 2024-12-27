@@ -38,7 +38,7 @@ Bei Nutzung des Backup zur Installtion von Maxxicharge spezfischer Konfiguration
 
 **Disclaimer:**
 
-Keine Verantwortung für verlorene Daten und evtl. nicht funktionsfähige HA Installation. Das Einspielen der Backups wurde mit unterschiedlichen HA Systemen auf unterschiedlicher Hardware getestet, allerdings
+Keine Verantwortung für verlorene Daten und evtl. nicht funktionsfähige HA Installation. Das Einspielen der Backups wurde mit mehrenen HA Systemen auf unterschiedlicher Hardware getestet, allerdings
 aufgrund der Anzahl von Hardware- und Systemoptionen natürlich nicht auf allen möglichen Varianten. Daher unbedingt ein neues, noch nicht konfiguriertes, leeres System nehmen.
 
 
