@@ -32,6 +32,11 @@ Für jemanden, der neu mit dem HA anfängt stellt dies oftmal eine unerwartet ho
 Für eine **Komplette Neuinstalltion** des HA gibt es allerdings die Möglichkeit komplette Konfigurationen des System per Backup/Image in HA einzuspielen. Solche Backup's überschreiben alle Daten und Konfigurationen,
 die im jeweiligen HA System gemacht worden sind. Der Ansatz ist somit nur für die Erstkonfiguration in einer neu bereitgestellten und noch nicht genutzen HA Instanz geeignet.
 
+**Hinweis:**
+
+Die Konfiguration der Entitäten/Sensoren ist für eine Maxxicharge System mit EINER Batterie ausgelegt. Wer mehr als eine Batterie hat, muss weitere Sensoren für die 2. Batterie in der Konfiguration anlegen,
+um die Daten auslesen zu können.
+
 **Warnung:** 
 
 Bei Nutzung des Backup zur Installtion von Maxxicharge spezfischer Konfiguration werden **ALLE** bisher evtl. in dem System vorhandenen Konfgurationen sowie **ALLE** Systemdaten gelöscht. 
