@@ -46,6 +46,12 @@ Bei Nutzung des Backup zur Installtion von Maxxicharge spezfischer Konfiguration
 Keine Verantwortung für verlorene Daten und evtl. nicht funktionsfähige HA Installation. Das Einspielen der Backups wurde mit mehrenen HA Systemen auf unterschiedlicher Hardware getestet, allerdings
 aufgrund der Anzahl von Hardware- und Systemoptionen natürlich nicht auf allen möglichen Varianten. Daher unbedingt ein neues, noch nicht konfiguriertes, leeres System nehmen.
 
+# ... und wo ist das jetzt im Detail beschrieben ?
+
+Beschreibung der Vorgehensweise und Details findet sich im Wiki des Repositories: 
+
+https://github.com/Joern-R/maxxicharge-local-ha-quickstart/wiki
+
 
 
 
