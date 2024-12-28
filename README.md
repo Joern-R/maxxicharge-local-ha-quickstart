@@ -1,5 +1,5 @@
 # maxxicharge-local-ha-quickstart
-Homeassistant Backup/Image als Grundlage einer Integration mit dem Lokalen API der Maxxicharge CCU V1 (ab Firmware 0.41)
+Homeassistant "Backup" als Grundlage einer Integration mit dem Lokalen API der Maxxicharge CCU V1 (ab Firmware 0.41)
 
 **Disclaimer:**
 
@@ -8,12 +8,12 @@ Die Nutzung der bereitgestellten Konfiguration erfolgt auf eigene Verantwortung 
 Die Lösung ist Community basiert und wird von der Firma Maxxisun weder unterstützt noch supported. Alles was hier beschrieben und genutzt wird, sind Homeassistant Technologien und Konzepte sowie Open Source 
 Komponenten anderer User, die Homeassistant mittels Home Assistant Community Store (HACS) hinzugefügt werden können. Diese unterliegen den Copyright Regelungen des jeweiligen Repositories.
 
-In der nachfolgenden Beschreibung sind alle im Backup/Image verwendenten Komponenten, die einer "leeren" Homeassistant Neuinstallation hinzugefügt werden aufgeführt. Etwaige, evtl. inkompatibele Änderungen
+In der nachfolgenden Beschreibung sind alle im "Backup" verwendenten Komponenten, die einer "leeren" Homeassistant Neuinstallation hinzugefügt werden aufgeführt. Etwaige, evtl. inkompatibele Änderungen
 der Komponenten und daraus folgend notwendige Anpassungen liegen in der Verantwortung des Nutzers. Das gleiche gilt auch für Updates an der Homeassistant Installation.
 
 # Ziel
 
-Ein "Backup/Image" für Homeassistant Neuinstallationen bereitzustellen, dass nach Installation von Homeassistant auf einem geeignenten Geräte folgende Maxxicharge bezogenen Funktionen ohne weitere Konfiguration
+Ein "Backup" für Homeassistant Neuinstallationen bereitzustellen, dass nach Installation von Homeassistant auf einem geeignenten Geräte folgende Maxxicharge bezogenen Funktionen ohne weitere Konfiguration
 im Homeassistant bereitstellt:
 
 1. Integration der Maxxicharge Daten aus dem "Lokalen API" als Sensoren
@@ -29,7 +29,7 @@ angelegt werden und mit Hilfe dieser Komponenten können die Dashboards angelegt
 
 Für jemanden, der neu mit dem HA anfängt stellt dies oftmal eine unerwartet hohe Anfangshürde dar, insbesondere dann, wenn man direkt mit der Konfiguration für eine System wie Maxxicharge starten will.
 
-Für eine **Komplette Neuinstalltion** des HA gibt es allerdings die Möglichkeit komplette Konfigurationen des System per Backup/Image in HA einzuspielen. Solche Backup's überschreiben alle Daten und Konfigurationen,
+Für eine **Komplette Neuinstalltion** des HA gibt es allerdings die Möglichkeit komplette Konfigurationen des System per "Backup" in HA einzuspielen. Solche Backup's überschreiben alle Daten und Konfigurationen,
 die im jeweiligen HA System gemacht worden sind. Der Ansatz ist somit nur für die Erstkonfiguration in einer neu bereitgestellten und noch nicht genutzen HA Instanz geeignet.
 
 **Hinweis:**
