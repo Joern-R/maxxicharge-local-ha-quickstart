@@ -17,7 +17,7 @@ Ein "Backup" für Homeassistant Neuinstallationen bereitzustellen, dass nach Ins
 im Homeassistant bereitstellt:
 
 1. Integration der Maxxicharge Daten aus dem "Lokalen API" als Sensoren
-2. Helfer Entitäten um die Daten die in Watt (W) gelieferten Daten im HA in Kilowattstunden (kwH) aufzusummieren
+2. Helfer Entitäten, um die Daten die in Watt (W) gelieferten Daten im HA in Kilowattstunden (kwh) umzuwandeln
 3. Die unter 2. erzeugten Helfer Entitäten als Grundkonfiguration des HA Energie Dashboard einzustellen
 4. Mind. ein HA Dashbaord mit allen Maxxicharge Entitäten basierend auf HA Standard Dashboard Möglichkeiten
 
@@ -27,7 +27,7 @@ Da Sensoren/Entitäten im HA komplett individuell benannt werden können, gibt e
 von einenm System auf ein anderes System zu übertragen. Stattdessen müssen alle enthaltenen Komponenten (Sensoren, HACS Lovelace Dashboard Komponenten, Configuration.YAML Abschnitte,..) manuell im neuen System 
 angelegt werden und mit Hilfe dieser Komponenten können die Dashboards angelegt und konfiguriert werden.
 
-Für jemanden, der neu mit dem HA anfängt stellt dies oftmal eine unerwartet hohe Anfangshürde dar, insbesondere dann, wenn man direkt mit der Konfiguration für eine System wie Maxxicharge starten will.
+Für jemanden, der neu mit dem HA anfängt stellt dies oftmal eine unerwartet hohe Anfangshürde dar, insbesondere dann, wenn man direkt mit der Konfiguration für ein System wie Maxxicharge starten will.
 
 Für eine **Komplette Neuinstalltion** des HA gibt es allerdings die Möglichkeit komplette Konfigurationen des System per "Backup" in HA einzuspielen. Solche Backup's überschreiben alle Daten und Konfigurationen,
 die im jeweiligen HA System gemacht worden sind. Der Ansatz ist somit nur für die Erstkonfiguration in einer neu bereitgestellten und noch nicht genutzen HA Instanz geeignet.
