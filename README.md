@@ -11,9 +11,9 @@ Komponenten anderer User, die Homeassistant mittels Home Assistant Community Sto
 In der nachfolgenden Beschreibung sind alle im "Backup" verwendenten Komponenten, die einer "leeren" Homeassistant Neuinstallation hinzugefügt werden, aufgeführt. Etwaige, evtl. inkompatibele Änderungen
 der Komponenten und daraus folgend notwendige Anpassungen liegen in der Verantwortung des Nutzers. Das gleiche gilt auch für Updates an der Homeassistant Installation.
 
-# Ziel
+# Inhalt
 
-Ein "Backup" für Homeassistant Neuinstallationen bereitzustellen, dass nach Installation von Homeassistant auf einem geeignenten Geräte folgende Maxxicharge bezogenen Funktionen ohne weitere Konfiguration
+Ein "Backup" für Homeassistant Neuinstallationen, dass nach Installation von Homeassistant auf einem geeignenten Geräte folgende Maxxicharge bezogenen Funktionen ohne weitere Konfiguration
 im Homeassistant bereitstellt:
 
 1. Integration der Maxxicharge Daten aus dem "Lokalen API" als Sensoren
