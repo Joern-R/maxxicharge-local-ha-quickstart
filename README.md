@@ -40,7 +40,7 @@ um die Daten auslesen zu können.
 
 **Warnung:** 
 
-Bei Nutzung des Backup zur Installtion von Maxxicharge spezfischer Konfiguration werden **ALLE** bisher evtl. in dem System vorhandenen Konfgurationen sowie **ALLE** evtl. schon vorhandenen Daten gelöscht. 
+Bei Nutzung des Backup zur Installation von Maxxicharge spezfischer Konfiguration werden **ALLE** bisher evtl. in dem System vorhandenen Konfgurationen sowie **ALLE** evtl. schon vorhandenen Daten gelöscht. 
 
 **Disclaimer:**
 
