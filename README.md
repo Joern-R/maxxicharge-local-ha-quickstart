@@ -3,13 +3,17 @@ Homeassistant "Backup" als Grundlage einer Integration mit dem Lokalen API der M
 
 **Disclaimer:**
 
-Die Nutzung der bereitgestellten Konfiguration per Homeassistant Backup erfolgt auf eigene Verantwortung und ohne die implizite oder explizite Zusicherung von bestimmten Eigenschaften und Funktionalitäten, sowie ohne Gewähr und Support. 
+# Disclaimer:
 
-Die Lösung ist Community basiert und wird von der Firma Maxxisun weder unterstützt noch supported. Alles was hier beschrieben und genutzt wird, sind Homeassistant Technologien und Konzepte sowie Open Source 
-Komponenten anderer User, die Homeassistant mittels Home Assistant Community Store (HACS) hinzugefügt werden können. Diese unterliegen den Copyright Regelungen des jeweiligen Repositories.
+🚨 Die Nutzung der bereitgestellten Konfiguration per Homeassistant Backup erfolgt auf eigene Verantwortung und ohne die implizite oder explizite Zusicherung von bestimmten Eigenschaften und Funktionalitäten, sowie ohne Gewähr und Support.
+Alle Marken- oder Produktmarken sind Eigentum des jeweiligen Firmen/Personen. 🚨
 
-In der nachfolgenden Beschreibung sind alle im "Backup" verwendenten Komponenten, die einer "leeren" Homeassistant Neuinstallation hinzugefügt werden, aufgeführt. Etwaige, evtl. inkompatibele Änderungen
-der Komponenten und daraus folgend notwendige Anpassungen liegen in der Verantwortung des Nutzers. Das gleiche gilt auch für Updates an der Homeassistant Installation.
+🚨 Die Lösung ist Community basiert und wird von der Firma Maxxisun weder unterstützt noch supported. Alles was hier beschrieben und genutzt wird, sind Homeassistant Technologien und Konzepte sowie Open Source 
+Komponenten anderer User, die Homeassistant mittels Home Assistant Community Store (HACS) hinzugefügt werden können. Diese unterliegen den Copyright Regelungen des jeweiligen Repositories. Der Anwender trägt das Risiko eines mögliche Verlustes 
+der Herstellergarantie sowie möglichen Schäden am Gerät durch unsachgemässe Nutzung und/oder Konfiguration. 🚨
+
+🚨 In der nachfolgenden Beschreibung sind alle im "Backup" verwendenten Komponenten, die einer "leeren" Homeassistant Neuinstallation hinzugefügt werden, aufgeführt. Etwaige, evtl. inkompatibele Änderungen
+der Komponenten und daraus folgend notwendige Anpassungen liegen in der Verantwortung des Nutzers. Das gleiche gilt auch für Updates an der Homeassistant Installation. 🚨
 
 # Inhalt
 
