@@ -1,8 +1,6 @@
 # maxxicharge-local-ha-quickstart
 Homeassistant "Backup" als Grundlage einer Integration mit dem Lokalen API der Maxxicharge CCU V1 (ab Firmware 0.41)
 
-**Disclaimer:**
-
 # Disclaimer:
 
 🚨 Die Nutzung der bereitgestellten Konfiguration per Homeassistant Backup erfolgt auf eigene Verantwortung und ohne die implizite oder explizite Zusicherung von bestimmten Eigenschaften und Funktionalitäten, sowie ohne Gewähr und Support.
