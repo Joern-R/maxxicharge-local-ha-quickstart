@@ -35,6 +35,12 @@ Die "Backup Funktionalität" im HA (gedacht für Datensicherung und die Übertra
 Basiskonfiguration (ohne Daten) einzuspielen. Wichtig: Ein Backup überschreibt alle Daten und Konfigurationen, die im jeweiligen HA System gemacht worden sind. Der Ansatz ist somit nur für die Erstkonfiguration 
 in einer neu bereitgestellten und noch nicht genutzen HA Instanz geeignet.
 
+# Voraussetzungen beim Homeassistant
+
+Bei Homeassistant wird als "Core" Version mind. **HA Core Version 2025.1.x** benötigt, da erst diese Version die Verarbeitung verschlüsselter Backups ermöglicht.
+
+# Weitere wichtige Informationen
+
 **Hinweis:**
 
 Die Konfiguration der Entitäten/Sensoren ist für eine Maxxicharge System mit EINER Batterie ausgelegt. Wer mehr als eine Batterie hat, muss weitere Sensoren für die 2. Batterie in der Konfiguration anlegen,
