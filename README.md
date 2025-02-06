@@ -39,6 +39,10 @@ in einer neu bereitgestellten und noch nicht genutzen HA Instanz geeignet.
 
 Bei Homeassistant wird als "Core" Version mind. **HA Core Version 2025.1.x** benötigt, da erst diese Version die Verarbeitung verschlüsselter Backups ermöglicht.
 
+**Ergänzung**: Mit **HA Core Version 2025.2.x** wird auch wieder die Erzeugung unverschlüsselter Backups unterstützt. Das Release V1 enthält (aus Konsistenzgründen) weiterhin das verschlüsselte Backup.
+Es wurde aber am 6.2.2025 auch ein unverschlüsseltes Backup mit gleichem Inhalt hinzugefügt. Dies **sollte** mit allen HA Core Versionen funktionieren. Wurde allerdings "nur" mit HA Core 2025.1.x und 2025.2.0 
+Versionen getestet. 
+
 # Weitere wichtige Informationen
 
 **Hinweis:**
