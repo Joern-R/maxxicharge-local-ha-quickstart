@@ -12,6 +12,7 @@ gegenüber den Änderungen in den "configuration.yaml", usw. zu bevorzugen. Inwi
 Konfiguration auf die HACS Lösung "umzusteigen" muss noch geprüft werden. Da jetzt eine HACS basierte Lösung existiert,
 sollte dies aber die Basis für alle Weiterentwicklungen - insbesondere in Hinsicht auf die CCU V2 werden.
 
+## KEINE WEITEREN UPDATES ODER PFLEGE - DIESES REPOSITORY WIRD SPÄTESTENS ENDE 2025 GELOESCHT
 
 # maxxicharge-local-ha-quickstart
 Homeassistant "Backup" als Grundlage einer Integration mit dem Lokalen API der Maxxicharge CCU V1 (ab Firmware 0.41 - getestet mit 0.44)
